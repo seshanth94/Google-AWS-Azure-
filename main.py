@@ -18,8 +18,8 @@ def hello_world():
 
 
 def createDBConn():
-    client = MongoClient('mongodb://146.148.100.237:27017')
-    db = client.eideticmemories
+    client = MongoClient('USE your CONNECTION HOST from Pymongo')
+    db = client.DBNAME
     return client, db
 
 
